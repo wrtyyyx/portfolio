@@ -1,12 +1,10 @@
 @import url('reset.css');
 
-/* !GLOBAL */
+/* GLOBAL STYLES */
 body {
 	font-family: "Roboto", sans-serif;
 	color: #212121;
 	letter-spacing: .9px;
-	/* font-weight: 400;
-	font-size: 16px; */
 }
 
 .container {
@@ -21,81 +19,85 @@ body {
 	font-size: 36px;
 }
 
-/* ? HEADER */
-
+/* HEADER STYLES */
 .header {
 	padding: 24px 0 25px;
 	border-bottom: 1px solid #ECECEC;
 	font-size: 14px;
 	font-weight: 500;
 }
+
 .header-container {
 	display: flex;
 	align-items: center;
 }
+
 .header-logo {
 	margin-right: 93px;
 }
+
 .header-menu {
 	display: flex;
 	gap: 50px;
 	margin-right: auto;
 }
+
 .header-menu-item a {
 	color: #212121;
 	text-decoration: none;
 }
-.header-menu-item a:hover {
-	color: #2196F3;
-}
+
+.header-menu-item a:hover,
 .header-menu-item a.active {
 	color: #2196F3;
 }
+
 .header-list {
 	display: flex;
 	gap: 50px;
 }
+
 .header-list-item a {
 	color: #757575;
 	text-decoration: none;
 }
+
 .header-list-item a:hover {
 	color: #2196F3;
 }
 
-
 /* FILTERS */
-
-.filters{
-	width: 611px;
-	height: 54px;
-	margin: 0 auto;
+.filters {
 	padding-top: 94px;
-	padding-bottom: 100px;
-	
+	padding-bottom: 34px;
 }
 
-.menu-list{
-	justify-content: space-between;
-	gap: 4px;
+.menu-list {
+	justify-content: center;
+	gap: 8px;
 	display: flex;
-	align-items: baseline;
 }
-.menu-item{
-	width: 130px;
-	height: 38px;
-	flex-shrink: 0;
+
+.menu-item {
+	padding: 6px 25px;
 	border-radius: 4px;
 	background: #F5F4FA;
-	text-align: center;
+	color: #212121;
+	font-family: Roboto;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 26px;
+	letter-spacing: 0.48px;
+	cursor: pointer;
 }
-.menu-item.blue{
+
+.menu-item.blue {
 	background: #2196F3;
 	color: #FFF;
 }
 
 /* CARDS */
-.project-box{
+.project-box {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
@@ -103,57 +105,65 @@ body {
 	padding-bottom: 94px;
 }
 
-.card{
+.card {
 	border: 1px solid #EEE;
 	background: #FFF;
 	margin-bottom: 30px;
 }
 
-.card-title{
-	color: #212121;
+.card-title,
+.card-desc {
 	font-family: Roboto;
-	font-size: 18px;
-	font-style: normal;
-	font-weight: 700;
-	line-height: 36px; 
-	letter-spacing: 1.08px;
-	margin: 20px 24px ;
 }
 
-.card-desc{
+.card-title {
+	color: #212121;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 36px;
+	letter-spacing: 1.08px;
+	margin: 20px 24px 0;
+	padding-bottom: 4px;
+}
+
+.card-desc {
 	color: #757575;
-	font-family: Roboto;
 	font-size: 16px;
-	font-style: normal;
 	font-weight: 400;
 	line-height: 30px;
 	letter-spacing: 0.48px;
-	margin:0 24px 20px ;
+	margin: 0 24px 20px;
+	padding-bottom: 4px;
 }
 
-/* ? FOOTER */
+/* FOOTER STYLES */
 .footer {
 	padding: 60px 0;
 	background: #2f303a;
 	font-size: 14px;
 }
+
 .footer-logo {
 	display: inline-block;
 	margin: 0 0 20px;
 }
+
 .footer-address {
 	display: flex;
 	flex-flow: column;
 	align-items: flex-start;
 	gap: 9px;
 }
+
 .footer-address p {
 	color: #fff;
 }
+
 .footer-address a {
 	color: rgba(255, 255, 255, 0.6);
 	text-decoration: none;
 }
+
 .footer-address a:hover {
 	color: #2196F3;
 }
