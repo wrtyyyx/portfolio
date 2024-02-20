@@ -107,6 +107,7 @@ body {
 .card {
 	border: 1px solid #EEE;
 	background: #FFF;
+	cursor: pointer;
 
 }
 .image{
@@ -156,12 +157,14 @@ body {
 	font-size: 18px;
 	letter-spacing: 0.54px;
 	line-height: 28px;
-	display: none;
+	opacity: 0;
+	transition: opacity 0.3s ease-in-out;
 }
 
-.image:hover > .hover-text{
-	display: block;
+.card:hover .hover-text{
+	opacity: 1;
 	cursor: pointer;
+	transition: 0.3s linear;
 } 	
 
 /* FOOTER STYLES */
