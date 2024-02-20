@@ -161,6 +161,7 @@ body {
 
 .image:hover > .hover-text{
 	display: block;
+	cursor: pointer;
 } 	
 
 /* FOOTER STYLES */
