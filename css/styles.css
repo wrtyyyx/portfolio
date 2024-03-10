@@ -301,6 +301,10 @@ body {
 	.project-box {
 		padding-bottom: 64px;
 	}
+	.filters {
+		padding-top: 60px;
+		padding-bottom: 40px;
+	}
 }
 
 /* 480px */
@@ -319,9 +323,6 @@ body {
 		padding-bottom: 58px;
 	}
 
-	.filters {
-		padding-top: 60px;
-		padding-bottom: 40px;
-	}
+	
 }
 
